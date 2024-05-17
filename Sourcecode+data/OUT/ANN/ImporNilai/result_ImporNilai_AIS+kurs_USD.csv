@@ -1,0 +1,43 @@
+,0
+var,"['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'sumDraughtDiff_neg_CT'
+ 'numDraughtDiff_neg_CT' 'kurs_USD' 'ImporNilai']"
+gen,"[70.75277094192481, 55.19480668185291, 81.33830615773698, 86.9466507354091, 4.839249042192496, 0.7003060980254854, 0.8466312614421909]"
+param,"{'hidden': [71, 55, 81, 87], 'activation': 'leaky_relu', 'learning_rate': 0.7003060980254854, 'momentum': 0.8466312614421909}"
+importance,"[['numVisit_CT' 0.14430400000000002]
+ ['numVessel_CT' 0.14089399999999994]
+ ['timeInPort_CT' 0.3028920000000001]
+ ['sumDraughtDiff_neg_CT' 0.08836400000000001]
+ ['numDraughtDiff_neg_CT' 0.0006220000000000002]
+ ['kurs_USD' 0.12991999999999995]]"
+RMSE train,0.05379144760428272
+MAPE train,11.471856377189738
+RMSE test,1.0192012767493537
+MAPE test,140.46347658378883
+prediksi train true,"[[10.2408]
+ [ 8.5655]
+ [ 9.522 ]
+ [10.7504]
+ [10.2979]
+ [ 8.1618]
+ [11.1907]
+ [10.2785]
+ [10.3904]
+ [10.8213]
+ [11.321 ]
+ [10.7785]
+ [10.6353]
+ [ 8.6615]
+ [10.1086]
+ [ 9.529 ]
+ [ 6.4711]
+ [ 8.3538]
+ [ 8.1539]]"
+prediksi test true,"[[10.8665]
+ [ 8.5224]
+ [ 8.8985]
+ [10.2904]
+ [ 9.8367]]"
+RMSE train true,3.681867948290106
+MAPE train true,26.843833359398044
+RMSE test true,2.817023075011091
+MAPE test true,19.12251853244255

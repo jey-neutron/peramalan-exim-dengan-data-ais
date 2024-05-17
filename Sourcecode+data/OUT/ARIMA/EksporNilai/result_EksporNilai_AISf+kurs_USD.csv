@@ -1,0 +1,41 @@
+,0
+var,['numVessel_CT' 'sumDraughtDiff_pos_CT' 'kurs_USD' 'EksporNilai']
+reg sig,[]
+reg diag,"{'dw': '2.498', 'p_omnibus': '0.792', 'p_jb': '0.748'}"
+model,"(1, 0, 0)"
+model sig,['sumDraughtDiff_pos_CT']
+model aic,53.263411744217045
+model bic,58.93004561921569
+model diag,"{'p_ljungbox': '0.93', 'p_jb': '0.50', 'p_heteros': '0.74'}"
+RMSE train,0.718598679319853
+MAPE train,163.3077066203499
+RMSE test,0.6550341449602392
+MAPE test,135.52506586984205
+prediksi train true,"[[14.9126]
+ [14.9862]
+ [15.3981]
+ [13.3063]
+ [13.8906]
+ [11.9636]
+ [13.977 ]
+ [12.5705]
+ [12.891 ]
+ [12.958 ]
+ [12.9413]
+ [13.0609]
+ [14.1362]
+ [15.0665]
+ [15.7676]
+ [14.8276]
+ [14.4315]
+ [14.4644]
+ [15.0364]]"
+prediksi test true,"[[13.2549]
+ [13.0326]
+ [12.7759]
+ [12.1123]
+ [12.0001]]"
+RMSE train true,1.696362550280437
+MAPE train true,11.08803000373499
+RMSE test true,2.6039092899953786
+MAPE test true,13.394245157107642

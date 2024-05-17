@@ -1,0 +1,42 @@
+,0
+var,"['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'sumDraughtDiff_neg_CT'
+ 'numDraughtDiff_neg_CT' 'bi_rate' 'ImporVolume']"
+reg sig,[]
+reg diag,"{'dw': '2.382', 'p_omnibus': '0.788', 'p_jb': '0.913'}"
+model,"(0, 0, 2)"
+model sig,['const' 'numVisit_CT' 'bi_rate']
+model aic,38.93443110008546
+model bic,48.37882089174987
+model diag,"{'p_ljungbox': '0.94', 'p_jb': '0.82', 'p_heteros': '0.16'}"
+RMSE train,0.3915530119798449
+MAPE train,118.72633659741021
+RMSE test,1.7071496492399272
+MAPE test,649.3822356716973
+prediksi train true,"[[11.5115]
+ [11.577 ]
+ [13.0171]
+ [13.9075]
+ [14.2651]
+ [10.8323]
+ [14.0685]
+ [12.8545]
+ [13.3122]
+ [14.074 ]
+ [16.7764]
+ [13.9977]
+ [11.8309]
+ [13.4411]
+ [16.0484]
+ [14.8792]
+ [ 9.3968]
+ [10.2589]
+ [10.9815]]"
+prediksi test true,"[[14.142 ]
+ [11.0737]
+ [12.4725]
+ [13.6936]
+ [11.6638]]"
+RMSE train true,0.83222607781716
+MAPE train true,4.730469856256655
+RMSE test true,2.217599410579231
+MAPE test true,14.676922739113763

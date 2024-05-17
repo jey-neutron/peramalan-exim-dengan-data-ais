@@ -1,0 +1,41 @@
+,0
+var,['timeInPort_CT' 'kurs_USD' 'ImporVolume']
+reg sig,[]
+reg diag,"{'dw': '2.785', 'p_omnibus': '0.625', 'p_jb': '0.928'}"
+model,"(1, 0, 0)"
+model sig,['kurs_USD' 'ar.L1' 'sigma2']
+model aic,55.245432715609596
+model bic,59.9676276114418
+model diag,"{'p_ljungbox': '0.55', 'p_jb': '0.65', 'p_heteros': '0.63'}"
+RMSE train,0.7874872858010515
+MAPE train,142.9239395736668
+RMSE test,0.8354366714833267
+MAPE test,345.5893899678923
+prediksi train true,"[[10.7495]
+ [10.7835]
+ [11.5211]
+ [11.2658]
+ [10.9036]
+ [10.4857]
+ [12.0611]
+ [ 9.9255]
+ [10.3488]
+ [ 9.6635]
+ [ 9.5654]
+ [ 8.3824]
+ [ 8.5463]
+ [ 9.627 ]
+ [11.7314]
+ [11.2456]
+ [ 9.7471]
+ [10.9393]
+ [10.1636]]"
+prediksi test true,"[[11.5492]
+ [11.7929]
+ [11.5629]
+ [10.8306]
+ [10.7768]]"
+RMSE train true,3.2582139485256825
+MAPE train true,20.200776180430104
+RMSE test true,2.190785022053547
+MAPE test true,11.151765519159481

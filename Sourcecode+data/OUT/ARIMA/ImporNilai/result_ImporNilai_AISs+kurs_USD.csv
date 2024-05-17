@@ -1,0 +1,41 @@
+,0
+var,['numVisit_CT' 'timeInPort_CT' 'kurs_USD' 'ImporNilai']
+reg sig,[]
+reg diag,"{'dw': '2.711', 'p_omnibus': '0.979', 'p_jb': '0.896'}"
+model,"(0, 0, 2)"
+model sig,['numVisit_CT' 'timeInPort_CT']
+model aic,46.028584936031976
+model bic,52.639657790197056
+model diag,"{'p_ljungbox': '0.68', 'p_jb': '0.72', 'p_heteros': '0.62'}"
+RMSE train,0.5590992291459328
+MAPE train,122.62651753606228
+RMSE test,1.3253575696009388
+MAPE test,241.84941219963596
+prediksi train true,"[[ 9.5823]
+ [ 9.2451]
+ [10.0721]
+ [ 9.3519]
+ [ 7.4966]
+ [ 6.2651]
+ [ 8.5728]
+ [ 7.9809]
+ [ 8.0533]
+ [ 7.5297]
+ [ 7.629 ]
+ [ 8.2514]
+ [ 8.2659]
+ [ 7.7443]
+ [ 9.5154]
+ [ 8.2235]
+ [ 6.2635]
+ [ 7.7284]
+ [ 7.8889]]"
+prediksi test true,"[[12.4073]
+ [10.9318]
+ [11.378 ]
+ [11.5817]
+ [ 9.1205]]"
+RMSE train true,5.370944462770663
+MAPE train true,37.53662307863872
+RMSE test true,2.5683600110017326
+MAPE test true,14.376948228346661

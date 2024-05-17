@@ -1,0 +1,41 @@
+,0
+var,['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'kurs_USD' 'EksporNilai']
+reg sig,[]
+reg diag,"{'dw': '2.451', 'p_omnibus': '0.954', 'p_jb': '0.952'}"
+model,"(0, 0, 2)"
+model sig,['numVisit_CT' 'numVessel_CT' 'timeInPort_CT']
+model aic,36.39177911888155
+model bic,43.94729095221307
+model diag,"{'p_ljungbox': '0.88', 'p_jb': '0.68', 'p_heteros': '0.47'}"
+RMSE train,0.4351654345087269
+MAPE train,101.40378653949188
+RMSE test,1.4069214302174742
+MAPE test,261.5450323906339
+prediksi train true,"[[12.1957]
+ [11.664 ]
+ [12.0893]
+ [11.2961]
+ [12.9624]
+ [11.4229]
+ [15.006 ]
+ [13.78  ]
+ [13.2461]
+ [12.4668]
+ [12.0155]
+ [13.0498]
+ [12.489 ]
+ [12.8876]
+ [12.5588]
+ [10.4265]
+ [ 9.6443]
+ [11.105 ]
+ [12.4471]]"
+prediksi test true,"[[14.4192]
+ [13.1619]
+ [14.8049]
+ [15.2273]
+ [11.6821]]"
+RMSE train true,1.452844727373518
+MAPE train true,9.651794268238065
+RMSE test true,2.287739927394703
+MAPE test true,9.696204584469584

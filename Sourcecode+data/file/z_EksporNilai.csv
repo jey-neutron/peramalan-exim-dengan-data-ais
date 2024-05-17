@@ -1,0 +1,56 @@
+,RMSE train,RMSE test,RMSE train true,RMSE test true,param,var,prediksi test true,model sig
+AIS+None,0.1068,1.2118,1.1713,1.4319,"{'hidden': [67, 48], 'activation': 'leaky_relu', 'learning_rate': 0.9467061893050145, 'momentum': 0.7707287674636406}","['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'sumDraughtDiff_pos_CT'
+ 'numDraughtDiff_pos_CT' 'EksporNilai']","[[14.7216]
+ [13.1681]
+ [15.4632]
+ [16.5372]
+ [14.5049]]",
+AISf+None,0.2934,0.931,1.0936,3.8546,"{'hidden': [48, 19, 76, 76], 'activation': 'relu', 'learning_rate': 0.6268495730790289, 'momentum': 0.5187068488323934}",['numVessel_CT' 'sumDraughtDiff_pos_CT' 'EksporNilai'],"[[13.0235]
+ [12.0734]
+ [11.5945]
+ [10.5897]
+ [10.115 ]]",
+AISs+None,0.202,1.3935,3.0339,2.517,"{'hidden': [90, 15], 'activation': 'leaky_relu', 'learning_rate': 0.6876034414564896, 'momentum': 0.8665918633534219}",['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'EksporNilai'],"[[16.4253]
+ [14.7061]
+ [17.4507]
+ [18.4725]
+ [16.9517]]",
+AISc+None,0.487,0.795,9.8424,1.8367,"{'hidden': [51], 'activation': 'leaky_relu', 'learning_rate': 0.7339481201925963, 'momentum': 0.8597094436673043}","['numVisit_CT' 'numVessel_CT' 'sumDraughtDiff_pos_CT'
+ 'numDraughtDiff_pos_CT' 'EksporNilai']","[[12.9869]
+ [11.9679]
+ [13.6814]
+ [13.2237]
+ [13.6614]]",
+AISr+None,0.7223,0.7852,1.5996,1.2449,"{'hidden': [75, 50, 100], 'activation': 'leaky_relu', 'learning_rate': 0.7347716734280825, 'momentum': 0.5661957671681955}",['numVisit_CT' 'EksporNilai'],"[[13.7752]
+ [13.2044]
+ [14.8339]
+ [14.7224]
+ [14.0473]]",
+AIS+None,0.3769,1.6388,0.6538,2.6788,,"['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'sumDraughtDiff_pos_CT'
+ 'numDraughtDiff_pos_CT' 'EksporNilai']","[[15.4258]
+ [14.0883]
+ [14.5811]
+ [15.6198]
+ [11.0377]]",['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'ar.L1' 'ar.L2']
+AISf+None,0.4905,1.4856,1.4099,2.553,,['numVessel_CT' 'sumDraughtDiff_pos_CT' 'EksporNilai'],"[[12.8719]
+ [11.8884]
+ [12.1479]
+ [15.2839]
+ [11.7071]]",['numVessel_CT' 'sumDraughtDiff_pos_CT' 'ar.L7']
+AISs+None,0.4334,1.4063,1.3992,2.2821,,['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'EksporNilai'],"[[14.4176]
+ [13.1647]
+ [14.8107]
+ [15.244 ]
+ [11.6949]]",['const' 'numVisit_CT' 'numVessel_CT' 'timeInPort_CT']
+AISc+None,0.3494,1.8891,3.7386,2.43,,"['numVisit_CT' 'numVessel_CT' 'sumDraughtDiff_pos_CT'
+ 'numDraughtDiff_pos_CT' 'EksporNilai']","[[17.381 ]
+ [13.2475]
+ [15.8204]
+ [14.655 ]
+ [13.6816]]","['numVisit_CT' 'sumDraughtDiff_pos_CT' 'numDraughtDiff_pos_CT' 'ar.L1'
+ 'ar.L8']"
+AISr+None,0.4569,1.2496,1.3039,3.413,,['numVisit_CT' 'EksporNilai'],"[[14.1992]
+ [12.065 ]
+ [12.8265]
+ [11.5391]
+ [10.4363]]",['const' 'numVisit_CT' 'ar.L1' 'ar.L4' 'ar.L5' 'ar.L8']

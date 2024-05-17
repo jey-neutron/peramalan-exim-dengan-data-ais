@@ -1,0 +1,124 @@
++---------------+--------+
+|    vessel_type|       n|
++---------------+--------+
+|         Tanker|10209735|
+|          Cargo|10156883|
+|          Other| 3162198|
+|            Tug| 2095404|
+|      Passenger|  737905|
+|       Dredging|  729324|
+|       Reserved|  401306|
+|        Unknown|  303643|
+|    UNAVAILABLE|  275360|
+| Pleasure Craft|  232384|
+|         Towing|  221367|
+|        Sailing|  176502|
+|            HSC|  115842|
+|       Military|   90313|
+|         Diving|   73053|
+|        Fishing|   64017|
+|            WIG|   43989|
+|          Spare|   20457|
+|Law Enforcement|   17734|
+|            SAR|   15401|
++---------------+--------+
++---------------+--------+
+|    vessel_type|       n|
++---------------+--------+
+|          Cargo|11114522|
+|         Tanker|10406981|
+|          Other| 3842511|
+|            Tug| 2539267|
+|      Passenger|  770076|
+|       Dredging|  571371|
+|        Unknown|  438372|
+|       Reserved|  351256|
+| Pleasure Craft|  303318|
+|         Towing|  278172|
+|    UNAVAILABLE|  268387|
+|        Sailing|  127496|
+|            HSC|  106703|
+|          Spare|   72610|
+|       Military|   71146|
+|         Diving|   63879|
+|            WIG|   52191|
+|Law Enforcement|   42015|
+|        Fishing|   39631|
+|            SAR|   14065|
++---------------+--------+
++---------------+--------+
+|    vessel_type|       n|
++---------------+--------+
+|         Tanker|14437409|
+|          Cargo|14075053|
+|          Other| 5302421|
+|            Tug| 3648953|
+|      Passenger| 1244591|
+|    UNAVAILABLE|  937792|
+|       Dredging|  731691|
+| Pleasure Craft|  648180|
+|       Reserved|  335375|
+|         Towing|  316827|
+|        Sailing|  177638|
+|         Diving|  123268|
+|            HSC|   95136|
+|Law Enforcement|   89294|
+|          Spare|   88235|
+|       Military|   73391|
+|            WIG|   68374|
+|        Unknown|   45524|
+|            SAR|   40257|
+|        Fishing|   34925|
++---------------+--------+
++--------------------+--------+
+|         vessel_type|       n|
++--------------------+--------+
+|              Tanker|15153473|
+|               Cargo|13283268|
+|               Other| 4819379|
+|                 Tug| 3746366|
+|           Passenger| 1782660|
+|         UNAVAILABLE|  951002|
+|            Dredging|  668863|
+|      Pleasure Craft|  418495|
+|            Reserved|  302473|
+|              Towing|  288307|
+|             Sailing|  240885|
+|              Diving|  231378|
+|            Military|  112821|
+|                 WIG|   99118|
+|               Spare|   80104|
+|                 HSC|   78638|
+|             Fishing|   63245|
+|                 SAR|   46833|
+|     Law Enforcement|   30014|
+|Vessel With Anti-...|   14904|
++--------------------+--------+
++--------------------+--------+
+|          nav_status|       n|
++--------------------+--------+
+|Under Way Using E...|89255407|
+|           At Anchor|28089414|
+|    Underway Sailing|15946198|
+|              Moored|14871631|
+|             Unknown|10871339|
+|         Not Defined|10770063|
+|Restricted Manoeu...| 2132476|
+|   Not Under Command| 1035222|
+|  Engaged In Fishing|  467811|
+|             Aground|  132017|
++--------------------+--------+
++--------------------+--------+
+|          nav_status|       n|
++--------------------+--------+
+|Under Way Using E...|83009417|
+|           At Anchor|28146228|
+|              Moored|14297780|
+|    Underway Sailing|13943417|
+|             Unknown|11065228|
+|         Not Defined| 9526264|
+|Restricted Manoeu...| 1968307|
+|   Not Under Command|  817318|
+|  Engaged In Fishing|  362109|
+|             Aground|  175443|
++--------------------+--------+
