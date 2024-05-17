@@ -1,0 +1,41 @@
+,0
+var,['numVisit_CT' 'EksporVolume']
+reg sig,['const' 'numVisit_CT']
+reg diag,"{'dw': '2.602', 'p_omnibus': '0.248', 'p_jb': '0.528'}"
+model,"(1, 0, 0)"
+model sig,['const' 'numVisit_CT' 'ar.L1' 'sigma2']
+model aic,61.47596828547749
+model bic,65.25372420214325
+model diag,"{'p_ljungbox': '0.33', 'p_jb': '0.77', 'p_heteros': '0.42'}"
+RMSE train,0.9768025849742186
+MAPE train,21.128334451938173
+RMSE test,1.7833064490824766
+MAPE test,43.48743655523587
+prediksi train true,"[[47.5466]
+ [45.2029]
+ [49.2113]
+ [43.8273]
+ [48.0452]
+ [39.5623]
+ [44.5338]
+ [41.0648]
+ [42.025 ]
+ [41.5006]
+ [42.4127]
+ [44.1054]
+ [43.1171]
+ [45.9158]
+ [47.0085]
+ [39.5463]
+ [39.4212]
+ [38.8393]
+ [38.8875]]"
+prediksi test true,"[[48.921 ]
+ [43.9834]
+ [47.8861]
+ [46.3893]
+ [43.0956]]"
+RMSE train true,9.673038985763014
+MAPE train true,16.56060792350483
+RMSE test true,7.469153886291612
+MAPE test true,10.303863093707077

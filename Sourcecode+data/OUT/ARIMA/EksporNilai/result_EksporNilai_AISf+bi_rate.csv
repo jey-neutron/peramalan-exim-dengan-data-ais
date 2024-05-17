@@ -1,0 +1,41 @@
+,0
+var,['numVessel_CT' 'sumDraughtDiff_pos_CT' 'bi_rate' 'EksporNilai']
+reg sig,['numVessel_CT']
+reg diag,"{'dw': '2.334', 'p_omnibus': '0.319', 'p_jb': '0.520'}"
+model,"(0, 0, 0)"
+model sig,['bi_rate']
+model aic,51.68582507975128
+model bic,56.408019975583485
+model diag,"{'p_ljungbox': '0.16', 'p_jb': '0.39', 'p_heteros': '0.32'}"
+RMSE train,0.7247394004197989
+MAPE train,218.30436116433617
+RMSE test,0.7110357552897666
+MAPE test,153.76164638269842
+prediksi train true,"[[14.7146]
+ [13.3249]
+ [12.9882]
+ [11.227 ]
+ [11.2463]
+ [ 9.8324]
+ [11.0325]
+ [11.4952]
+ [11.9918]
+ [12.8712]
+ [13.125 ]
+ [12.496 ]
+ [12.7786]
+ [12.9053]
+ [14.0974]
+ [12.4833]
+ [11.5614]
+ [12.1326]
+ [14.0598]]"
+prediksi test true,"[[12.6582]
+ [11.8341]
+ [11.2464]
+ [11.8009]
+ [11.4923]]"
+RMSE train true,1.8351303290158247
+MAPE train true,10.505924134092066
+RMSE test true,3.2200746775188938
+MAPE test true,18.688520406235284

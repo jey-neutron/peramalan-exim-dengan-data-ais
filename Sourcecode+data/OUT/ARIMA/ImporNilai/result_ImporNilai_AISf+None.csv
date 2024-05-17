@@ -1,0 +1,41 @@
+,0
+var,['numVessel_CT' 'timeInPort_CT' 'sumDraughtDiff_neg_CT' 'ImporNilai']
+reg sig,[]
+reg diag,"{'dw': '2.496', 'p_omnibus': '0.798', 'p_jb': '0.754'}"
+model,"(2, 0, 0)"
+model sig,['ar.L1' 'ar.L2' 'sigma2']
+model aic,54.931704640551835
+model bic,61.542777494716915
+model diag,"{'p_ljungbox': '0.95', 'p_jb': '0.85', 'p_heteros': '0.88'}"
+RMSE train,0.7100227785135708
+MAPE train,186.50602540898416
+RMSE test,0.9077446729025763
+MAPE test,153.69827807867895
+prediksi train true,"[[11.0768]
+ [11.0551]
+ [12.3783]
+ [11.5284]
+ [ 9.3698]
+ [ 8.307 ]
+ [10.0219]
+ [ 8.9549]
+ [ 7.7478]
+ [ 7.9367]
+ [ 7.9317]
+ [ 7.8257]
+ [ 8.1184]
+ [ 8.1136]
+ [ 9.1005]
+ [ 8.642 ]
+ [ 7.7738]
+ [ 9.3269]
+ [ 9.6532]]"
+prediksi test true,"[[9.0217]
+ [9.984 ]
+ [9.5073]
+ [8.7228]
+ [9.0299]]"
+RMSE train true,4.610075759349871
+MAPE train true,29.43899973496993
+RMSE test true,3.2217806022374247
+MAPE test true,22.032738056816772

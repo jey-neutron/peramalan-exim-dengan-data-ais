@@ -1,0 +1,57 @@
+,RMSE train,RMSE test,RMSE train true,RMSE test true,param,var,prediksi test true,model sig
+AIS+None,1.1913,1.4106,9.4081,8.5756,"{'hidden': [57, 69], 'activation': 'identity', 'learning_rate': 0.8494141463534117, 'momentum': 0.006404168115054953}","['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'sumDraughtDiff_pos_CT'
+ 'numDraughtDiff_pos_CT' 'EksporVolume']","[[45.4405]
+ [41.888 ]
+ [44.4885]
+ [43.302 ]
+ [41.4194]]",
+AISf+None,1.1937,1.3347,19.6861,5.502,"{'hidden': [85, 45, 94, 36], 'activation': 'tanh', 'learning_rate': 0.8264274891211963, 'momentum': 0.010005842516308316}","['numVisit_CT' 'numVessel_CT' 'sumDraughtDiff_pos_CT'
+ 'numDraughtDiff_pos_CT' 'EksporVolume']","[[47.9738]
+ [44.5443]
+ [47.9478]
+ [48.9969]
+ [46.7035]]",
+AISs+None,1.3618,1.2938,19.1967,5.1484,"{'hidden': [52, 24], 'activation': 'tanh', 'learning_rate': 0.21021661690615456, 'momentum': 0.4446454434393985}",['numVisit_CT' 'EksporVolume'],"[[47.5719]
+ [45.504 ]
+ [49.5569]
+ [49.7797]
+ [47.5048]]",
+AISc+None,1.0408,1.2305,14.9873,7.2011,"{'hidden': [60, 9, 69], 'activation': 'leaky_relu', 'learning_rate': 0.15126298468092303, 'momentum': 0.4370140913110123}","['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'numDraughtDiff_pos_CT'
+ 'EksporVolume']","[[45.9059]
+ [42.8261]
+ [45.311 ]
+ [45.0569]
+ [43.8583]]",
+AISr+None,1.3341,1.2974,11.2332,9.8391,"{'hidden': [54, 34], 'activation': 'leaky_relu', 'learning_rate': 0.10789836669157704, 'momentum': 0.02502267518661594}",['numVessel_CT' 'EksporVolume'],"[[44.0265]
+ [42.516 ]
+ [41.6885]
+ [40.0619]
+ [40.6974]]",
+AIS+None,0.7685,1.8301,3.6535,7.2909,,"['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'sumDraughtDiff_pos_CT'
+ 'numDraughtDiff_pos_CT' 'EksporVolume']","[[49.4256]
+ [46.6847]
+ [47.2845]
+ [49.1449]
+ [42.9372]]",['numVisit_CT' 'ar.L1' 'ar.L2']
+AISf+None,0.9694,1.9395,10.8819,6.9881,,"['numVisit_CT' 'numVessel_CT' 'sumDraughtDiff_pos_CT'
+ 'numDraughtDiff_pos_CT' 'EksporVolume']","[[49.8904]
+ [44.3314]
+ [49.6342]
+ [48.2484]
+ [44.1707]]",['numVisit_CT' 'ar.L1' 'sigma2']
+AISs+None,0.9768,1.7833,9.673,7.4692,,['numVisit_CT' 'EksporVolume'],"[[48.921 ]
+ [43.9834]
+ [47.8861]
+ [46.3893]
+ [43.0956]]",['const' 'numVisit_CT' 'ar.L1' 'sigma2']
+AISc+None,0.7886,1.8389,7.6035,6.8139,,"['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'numDraughtDiff_pos_CT'
+ 'EksporVolume']","[[50.4587]
+ [47.2955]
+ [47.888 ]
+ [50.4724]
+ [44.4693]]",['numVisit_CT' 'ar.L1' 'ar.L2']
+AISr+None,1.1668,1.2391,12.8044,9.1903,,['numVessel_CT' 'EksporVolume'],"[[44.2591]
+ [43.0413]
+ [42.3757]
+ [41.0472]
+ [41.5797]]",['numVessel_CT' 'ma.L1']

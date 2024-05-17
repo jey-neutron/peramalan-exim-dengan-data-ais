@@ -1,0 +1,42 @@
+,0
+var,"['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'sumDraughtDiff_pos_CT'
+ 'numDraughtDiff_pos_CT' 'bi_rate' 'EksporVolume']"
+gen,"[47.661918914891906, 70.54492671975048, 46.19295933038642, -7.251745583670229, 1.7976561379485152, 0.9036948630262042, 0.022489680106051124]"
+param,"{'hidden': [48, 71, 46], 'activation': 'tanh', 'learning_rate': 0.9036948630262042, 'momentum': 0.022489680106051124}"
+importance,"[['numVisit_CT' 0.051216]
+ ['numVessel_CT' 0.151574]
+ ['sumDraughtDiff_pos_CT' 0.015822000000000006]
+ ['numDraughtDiff_pos_CT' 0.008208]
+ ['bi_rate' 0.139068]]"
+RMSE train,1.028311823586846
+MAPE train,20.96019111531292
+RMSE test,1.4762487876982087
+MAPE test,36.71854319574751
+prediksi train true,"[[50.1081]
+ [46.6459]
+ [49.5843]
+ [44.1375]
+ [47.3602]
+ [39.2591]
+ [42.6189]
+ [45.2936]
+ [48.0693]
+ [52.0376]
+ [55.7154]
+ [56.0819]
+ [53.87  ]
+ [56.349 ]
+ [60.8088]
+ [51.7778]
+ [49.8144]
+ [52.5487]
+ [57.091 ]]"
+prediksi test true,"[[42.6718]
+ [37.6453]
+ [38.0093]
+ [38.7117]
+ [36.7196]]"
+RMSE train true,7.394699383479863
+MAPE train true,12.772946952785624
+RMSE test true,12.346194492219437
+MAPE test true,19.841806979721998

@@ -1,0 +1,42 @@
+,0
+var,"['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'sumDraughtDiff_pos_CT'
+ 'numDraughtDiff_pos_CT' 'EksporNilai']"
+reg sig,[]
+reg diag,"{'dw': '2.538', 'p_omnibus': '0.954', 'p_jb': '0.854'}"
+model,"(2, 0, 0)"
+model sig,['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'ar.L1' 'ar.L2']
+model aic,35.68344432906747
+model bic,44.18339514156543
+model diag,"{'p_ljungbox': '0.36', 'p_jb': '0.71', 'p_heteros': '0.98'}"
+RMSE train,0.3769180247651702
+MAPE train,77.20614293187855
+RMSE test,1.6388094255056556
+MAPE test,222.87644596593594
+prediksi train true,"[[13.2237]
+ [13.0192]
+ [13.802 ]
+ [12.247 ]
+ [14.0785]
+ [12.1395]
+ [15.7301]
+ [14.6059]
+ [14.2577]
+ [13.867 ]
+ [13.6299]
+ [14.4628]
+ [14.0156]
+ [14.7914]
+ [15.1347]
+ [12.53  ]
+ [11.6994]
+ [12.7924]
+ [14.0133]]"
+prediksi test true,"[[15.4258]
+ [14.0883]
+ [14.5811]
+ [15.6198]
+ [11.0377]]"
+RMSE train true,0.6537665217422642
+MAPE train true,4.2930616768308285
+RMSE test true,2.6788243678065826
+MAPE test true,11.17070467504731

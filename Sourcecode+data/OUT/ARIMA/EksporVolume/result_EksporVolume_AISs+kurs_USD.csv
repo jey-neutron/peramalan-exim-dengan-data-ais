@@ -1,0 +1,41 @@
+,0
+var,['numVisit_CT' 'kurs_USD' 'EksporVolume']
+reg sig,['numVisit_CT']
+reg diag,"{'dw': '2.579', 'p_omnibus': '0.294', 'p_jb': '0.552'}"
+model,"(1, 0, 0)"
+model sig,['numVisit_CT' 'ar.L1' 'sigma2']
+model aic,62.927459167034414
+model bic,67.64965406286662
+model diag,"{'p_ljungbox': '0.45', 'p_jb': '0.77', 'p_heteros': '0.41'}"
+RMSE train,0.9633944054648778
+MAPE train,20.588869377547535
+RMSE test,1.7749706028377654
+MAPE test,42.85417549886355
+prediksi train true,"[[47.0686]
+ [44.5352]
+ [48.6274]
+ [43.3134]
+ [47.4932]
+ [39.285 ]
+ [44.0474]
+ [40.5437]
+ [41.5801]
+ [40.7949]
+ [41.3322]
+ [42.9474]
+ [41.6839]
+ [44.7316]
+ [47.7242]
+ [40.4189]
+ [39.7619]
+ [38.7929]
+ [38.6424]]"
+prediksi test true,"[[48.8427]
+ [44.2958]
+ [47.8336]
+ [45.85  ]
+ [42.7892]]"
+RMSE train true,10.171147434124109
+MAPE train true,17.370271831887955
+RMSE test true,7.677314675614373
+MAPE test true,10.697234971659705

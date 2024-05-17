@@ -1,0 +1,42 @@
+,0
+var,"['numVisit_CT' 'numVessel_CT' 'timeInPort_CT' 'sumDraughtDiff_neg_CT'
+ 'numDraughtDiff_neg_CT' 'kurs_USD' 'ImporNilai']"
+reg sig,[]
+reg diag,"{'dw': '2.088', 'p_omnibus': '0.841', 'p_jb': '0.793'}"
+model,"(2, 0, 2)"
+model sig,['const' 'numVisit_CT' 'timeInPort_CT' 'ar.L1' 'ar.L2']
+model aic,40.486918917033535
+model bic,51.82018666703082
+model diag,"{'p_ljungbox': '0.89', 'p_jb': '0.53', 'p_heteros': '0.83'}"
+RMSE train,0.41190466825846767
+MAPE train,104.94175354828982
+RMSE test,0.9792890712060698
+MAPE test,123.72534230149856
+prediksi train true,"[[10.3464]
+ [10.4138]
+ [12.2692]
+ [12.9489]
+ [12.0634]
+ [10.7447]
+ [15.0672]
+ [13.7659]
+ [13.264 ]
+ [12.7037]
+ [13.0448]
+ [12.6625]
+ [11.7932]
+ [10.5738]
+ [12.0697]
+ [11.1337]
+ [ 7.3781]
+ [ 8.9778]
+ [ 9.3453]]"
+prediksi test true,"[[11.2427]
+ [12.7847]
+ [10.4932]
+ [12.3678]
+ [10.1102]]"
+RMSE train true,1.9416767349840156
+MAPE train true,12.5720591567651
+RMSE test true,2.0313844053615973
+MAPE test true,10.037781616320089
